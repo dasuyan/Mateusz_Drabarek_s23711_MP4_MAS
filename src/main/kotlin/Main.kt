@@ -19,13 +19,13 @@ import constraint_xor.PublicHealthInsurance
 import java.time.LocalDate
 
 fun main() {
-    testAttributeConstraint()
-    testUniqueConstraint()
-    testSubsetConstraint()
-    testOrderedConstraint()
-    testBagConstraint()
-    testXorConstraint()
-    testCustomConstraint()
+//    testAttributeConstraint()
+//    testUniqueConstraint()
+//    testSubsetConstraint()
+//    testOrderedConstraint()
+//    testBagConstraint()
+//    testXorConstraint()
+//    testCustomConstraint()
 }
 
 private fun testAttributeConstraint() {
