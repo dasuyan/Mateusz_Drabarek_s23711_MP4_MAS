@@ -19,18 +19,18 @@ import constraint_xor.PublicHealthInsurance
 import java.time.LocalDate
 
 fun main() {
-//    testAttributeConstraint()
-//    testUniqueConstraint()
-//    testSubsetConstraint()
-//    testOrderedConstraint()
-//    testBagConstraint()
-//    testXorConstraint()
-//    testCustomConstraint()
+    testAttributeConstraint()
+    testUniqueConstraint()
+    testSubsetConstraint()
+    testOrderedConstraint()
+    testBagConstraint()
+    testXorConstraint()
+    testCustomConstraint()
 }
 
 private fun testAttributeConstraint() {
     try {
-        val product1: Product = Product(Product.minimumPrice + 350.0)
+        val product1 = Product(Product.minimumPrice + 350.0)
         println(product1)
         product1.price *= 3
         //product1.price -= 100
@@ -53,7 +53,7 @@ private fun testUniqueConstraint() {
 }
 
 private fun testSubsetConstraint() {
-    val cat: Cat = Cat(
+    val cat = Cat(
         name = "Pruti",
         surname = "Hunter",
         dateOfBirth = LocalDate.of(2020, 3, 10),
